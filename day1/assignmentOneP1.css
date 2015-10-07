@@ -1,0 +1,40 @@
+body {
+  background-color: #FDF5E6;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1{
+  color: navy;
+  font-size: 100px;
+  text-align: justify;
+}
+
+img {
+  float: right;
+}
+
+p {
+  color: #87CEEB;
+}
+
+ul,ol {
+  list-style-type: none;
+}
+
+li {
+  color: #680000;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+footer {
+  background-color: #C8C8C8;
+  color: purple;
+  font-size: 50px;
+}
