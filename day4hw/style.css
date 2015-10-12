@@ -1,0 +1,16 @@
+body {
+        background-image: url("bg.jpg");
+}
+
+.media-header {
+  float:right;
+  display: inline-block;
+}
+
+.social-wrapper {
+  display: inline-block;
+}
+
+.nav-list{
+  color: white;
+}
