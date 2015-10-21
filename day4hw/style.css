@@ -1,16 +1,187 @@
 body {
         background-image: url("bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 
-.media-header {
-  float:right;
-  display: inline-block;
-}
-
-.social-wrapper {
-  display: inline-block;
-}
-
-.nav-list{
+a {
+  font-family: 'Didact Gothic', sans-serif;
   color: white;
+}
+.media-header {
+  margin-left: 60%;
+  display: inline-block;
+}
+
+.social-wrapper li {
+  display: inline-block;
+}
+
+.media-header ul {
+  display: inline-block;
+}
+
+.social-wrapper ul {
+    display: inline-block;
+    list-style: none;
+}
+
+.main-container {
+  /*margin: 10% 20% 10% 20%;*/
+  width: 60%;
+  margin: 0 auto;
+  /*margin-left: 20%;*/
+}
+
+
+.nav-list li {
+  display: inline-block;
+  background-color: red;
+  padding:10px;
+  color:white;
+}
+
+li.nav-list {
+  color: white:
+}
+
+.hero-container img{
+  background-image:url(top-image.jpg);
+  /*background-position-y:up and down*/
+  /*background-position-x: left and right*/
+  padding: 0px;
+  margin: 0;
+  width: 90%;
+  display:inline-block;
+  background-repeat: no-repeat;
+  border: solid;
+  border-color: white;
+  border-width: 0.75em;
+}
+
+
+#author-logo img {
+  position: relative;
+
+}
+
+.three-dots {
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+a:link {
+  text-decoration: none;
+}
+/*.nivo-slider {
+  position:relative;
+}
+
+.nivo-slider img {
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+}
+
+.nivo-slice {
+  display:block;
+  position:absolute;
+  z-index:5;
+  height:100%;
+}
+
+.nivo-box {
+  display:block;
+  position:absolute;
+  z-index:5;
+}*/
+
+.industry-articles {
+  display: flex;
+  margin: 0;
+  padding: 10px;
+}
+
+.col-3 {
+  margin-right: 10px;
+  width: 30%;
+  display: inline-block;
+  padding: 20px;
+  background-color: white;
+}
+
+
+span {
+  margin:left;
+  color: white;
+}
+.skateboaders {
+  color: white;
+}
+
+.Lance{
+  width: 10px;
+  padding: 10px;
+  background-size:  contain;
+  background-repeat: no-repeat;
+}
+
+.Rodney {
+  width: 10px;
+  padding: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.Tommy {
+  width: 10px;
+  padding: 10px;
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+
+.Steve {
+  width: 40%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+
+
+.board-designs {
+  background-color: white;
+}
+.board-designs li {
+    display: inline-block;
+}
+
+.contact-us{
+  width: 100%;
+}
+
+.contact-col-1 {
+  display: inline-block;
+  width: 45%;
+  background-color: white;
+  padding: 20px;
+}
+
+.contact-col-2 {
+  display: inline-block;
+  width:45%;
+  background-color: white;
+  padding: 20px;
+}
+
+.contact-col-1, .contact-col-2 {
+  vertical-align: top;
+}
+
+.contact-col-2 form {
+  display: inline-block;
+  
 }

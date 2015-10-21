@@ -1,0 +1,88 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+  header, footer {
+  width: 100%;
+  background-color: grey;
+
+nav ul {
+  margin:0;
+  padding: 0;
+
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+
+nav li:hover {
+  background-color:red
+}
+
+nav li > a {
+  color: white;
+}
+
+.wrapper{
+width: 90%;
+margin: 0 auto;
+clear:both;
+}
+
+.wrappper:before, .wrapper:after {
+  content: '';
+  clear:both;
+}
+
+.content {
+    padding; 15px;
+}
+
+section, aside {
+  display: inline-block;
+  vertical-align: top;
+}
+
+section {
+width: 67%;
+}
+
+aside {
+  width: 32%;
+}
+
+/* when it gets to this size*/
+@media /*screen -- dont have to have but can*/ and (min-width: 1020px) {
+  section {
+    background-color: red;
+    width: 49%;
+  }
+  aside {
+    width; 49%;
+  }
+
+}
+
+
+@media (min-width: 520px;) and (max-width: 800px;){
+  /*this will make header and footer disappear*/
+header, footer {
+  display:none;
+ }
+}
+
+@media (max-width: 520px; /*until hits 520px*/{}
+  section, aside {
+  background-color:
+  }
+
+
+
+}
